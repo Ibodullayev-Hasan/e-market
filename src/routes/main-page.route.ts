@@ -3,6 +3,6 @@ import { MainPageController } from "../controllers";
 
 const mainRouter = Router();
 
-mainRouter.get("/main", MainPageController);
+mainRouter.get("/", MainPageController);
 
 export default mainRouter;
